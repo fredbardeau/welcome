@@ -8,10 +8,15 @@ Il interroge l'API publique du ministère de l'Économie (jeu de données [`bofi
 
 1. Installer Python 3 depuis [python.org](https://www.python.org/downloads/) et cocher **« Add python.exe to PATH »** pendant l'installation.
 2. Copier le dossier `bofip` sur le poste ou sur le partage réseau du cabinet.
+3. Double-cliquer sur `installer_raccourci.bat` : une icône **Recherche BOFiP** apparaît sur le Bureau.
+
+Si le dossier est ensuite déplacé, relancer `installer_raccourci.bat` depuis son nouvel emplacement.
+
+À la main, sans l'installeur : clic droit sur `rechercher_bofip.bat` → *Afficher d'autres options* (Windows 11) → *Envoyer vers* → *Bureau (créer un raccourci)*.
 
 ## Utilisation
 
-**Sous Windows :** double-cliquer sur `rechercher_bofip.bat`, taper les termes recherchés, puis Entrée. L'outil affiche les 20 publications les plus récentes qui correspondent, avec leur référence BOI et leur lien. Il propose ensuite un export CSV (jusqu'à 500 résultats), qui s'ouvre dans Excel.
+**Sous Windows :** double-cliquer sur l'icône **Recherche BOFiP** du Bureau (ou sur `rechercher_bofip.bat`), taper les termes recherchés, puis Entrée. L'outil affiche les 20 publications les plus récentes qui correspondent, avec leur référence BOI et leur lien. Il propose ensuite un export CSV (jusqu'à 500 résultats), qui s'ouvre dans Excel.
 
 **En ligne de commande :**
 
